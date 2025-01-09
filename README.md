@@ -96,5 +96,4 @@ Contributions are welcome! Feel free to fork this repository, make changes, and 
 
 ## Contact
 **Carlos Buss**  
-Email: [bussxy@gmail.com](mailto:bussxy@gmail.com)  
 GitHub: [carlosbuss1](https://github.com/carlosbuss1)
