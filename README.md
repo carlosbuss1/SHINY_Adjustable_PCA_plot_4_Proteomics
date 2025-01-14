@@ -1,6 +1,6 @@
 # Shiny Adjustable PCA Plot for Proteomics Data
 
-## Overview
+## Overview 
 This repository contains a Shiny application for interactive Principal Component Analysis (PCA) of proteomics data. It includes:
 
 - **Dynamic filtering** and **normalization** of proteomics datasets.
@@ -18,7 +18,7 @@ The application is containerized using Docker, ensuring a seamless setup and exe
   - Filter low-variance genes interactively.
   - Dynamic PCA visualization with explained variance.
 
-- **Proteomics Data Integration**:
+- **Proteomics Dataset Integration**:
   - Input: `proteomics_counts.csv`.
   - Preprocessing includes handling missing values, normalization, and variance filtering.
 
