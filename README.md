@@ -1,11 +1,11 @@
-# 🧬 Shiny Adjustable PCA Plot for Proteomics Data
+#  Shiny Adjustable PCA Plot for Proteomics Data
 
 ![R Version](https://img.shields.io/badge/R-%E2%89%A54.0.0-blue)
 ![Shiny](https://img.shields.io/badge/Shiny-1.7.0-green)
 ![Docker](https://img.shields.io/badge/Docker-Ready-brightgreen)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
-## 🎯 Overview
+## Overview
 
 An interactive **Shiny web application** for real-time Principal Component Analysis (PCA) of proteomics datasets. This tool provides researchers with dynamic exploration of protein expression data through customizable PCA visualization, specifically designed for comparing Wild Type (WT) and Knockout (KO) samples.
 
@@ -15,7 +15,7 @@ An interactive **Shiny web application** for real-time Principal Component Analy
 
 ---
 
-## 🔬 Application Purpose
+##  Application Purpose
 
 This Shiny application is designed for:
 - **Sample Quality Control**: Identify outliers and batch effects in proteomics experiments
@@ -25,7 +25,7 @@ This Shiny application is designed for:
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
 ### Interactive Controls
 
@@ -49,7 +49,7 @@ This Shiny application is designed for:
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Option 1: Docker Deployment
 
@@ -81,7 +81,7 @@ shiny::runApp("shiny_pca_plot.R")
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
 SHINY_Adjustable_PCA_plot_4_Proteomics/
@@ -94,7 +94,7 @@ SHINY_Adjustable_PCA_plot_4_Proteomics/
 
 ---
 
-## 📋 Data Format Requirements
+##  Data Format Requirements
 
 ### Input File: `proteomics_counts.csv`
 
@@ -115,7 +115,7 @@ TP53	23456	19872	25631	15432	17890	14567
 
 ---
 
-## ⚙️ Processing Pipeline
+##  Processing Pipeline
 
 ### 1. Data Loading
 - Reads tab-delimited `proteomics_counts.csv`
@@ -143,7 +143,7 @@ TP53	23456	19872	25631	15432	17890	14567
 
 ---
 
-## 🎨 Visual Design
+## Visual Design
 
 ### Color Scheme
 - **WT (Wild Type)**: 
@@ -161,7 +161,7 @@ TP53	23456	19872	25631	15432	17890	14567
 
 ---
 
-## 🔧 Parameter Guidelines
+## Parameter Guidelines
 
 ### Recommended Settings
 
@@ -181,7 +181,7 @@ low_variation_threshold: 0.5
 
 ---
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -203,7 +203,7 @@ options(shiny.maxRequestSize = 30*1024^2)  # 30MB
 
 ---
 
-## 📊 Sample Requirements
+## Sample Requirements
 
 - **Minimum samples**: 3 per group (ideally 5+ for robust PCA)
 - **Minimum features**: 100+ proteins/genes after filtering
@@ -211,7 +211,7 @@ options(shiny.maxRequestSize = 30*1024^2)  # 30MB
 
 ---
 
-## 📚 Dependencies
+## Dependencies
 
 ### R Packages
 - `shiny` - Web application framework
@@ -226,7 +226,7 @@ options(shiny.maxRequestSize = 30*1024^2)  # 30MB
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions welcome! Please:
 1. Fork the repository
@@ -236,13 +236,13 @@ Contributions welcome! Please:
 
 ---
 
-## 📜 License
+##  License
 
 MIT License - See `LICENSE` file for details
 
 ---
 
-## 👨‍🔬 Author
+##  Author
 
 **Carlos E. Buss, PhD**  
 Bioinformatics Researcher  
@@ -250,13 +250,13 @@ Signal Transduction and Metabolism Laboratory
 Université libre de Bruxelles (ULB)  
 Brussels, Belgium  
 
-📧 Email: carlos.eduardo.buss@ulb.be  
-🌐 Lab: [www.stmlaboratory.com](https://www.stmlaboratory.com)  
-💻 GitHub: [@carlosbuss1](https://github.com/carlosbuss1)  
+ Email: carlos.eduardo.buss@ulb.be  
+ Lab: [www.stmlaboratory.com](https://www.stmlaboratory.com)  
+ GitHub: [@carlosbuss1](https://github.com/carlosbuss1)  
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - [Bioconductor](https://bioconductor.org/) for `limma` and `edgeR` packages
 - [RStudio](https://www.rstudio.com/) for Shiny framework
