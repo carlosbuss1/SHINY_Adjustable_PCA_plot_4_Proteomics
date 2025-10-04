@@ -10,6 +10,7 @@
 An interactive **Shiny web application** for real-time Principal Component Analysis (PCA) of proteomics datasets. This tool provides researchers with dynamic exploration of protein expression data through customizable PCA visualization, specifically designed for comparing Wild Type (WT) and Knockout (KO) samples.
 
 ![PCA Proteomics Analysis Interface](pca_proteomics.png)
+
 *Figure: Interactive PCA visualization showing WT vs KO sample clustering with explained variance*
 
 ---
