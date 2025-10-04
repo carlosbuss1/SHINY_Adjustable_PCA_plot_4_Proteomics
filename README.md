@@ -101,16 +101,16 @@ SHINY_Adjustable_PCA_plot_4_Proteomics/
 - **Format**: Tab-delimited text file (`.csv` extension but tab-separated)
 - **Structure**: 
   - First column: `Gene.Symbol` (protein/gene identifiers)
-  - Subsequent columns: Sample data (KO1-KO5, WT1-WT5)
+  - Subsequent columns: Sample data (KO1-KO3, WT1-WT3)
 - **Values**: Raw count data or intensity values
 
 ### Example Structure
 
 ```
-Gene.Symbol	KO1	KO2	KO3	KO4	KO5	WT1	WT2	WT3	WT4	WT5
-ACTB	15420	18903	12456	20145	17890	22456	19872	25631	21098	23456
-GAPDH	8934	7652	9871	6543	8765	10234	11456	9876	12345	10987
-TP53	23456	19872	25631	21098	18765	15432	17890	14567	16789	15234
+Gene.Symbol	KO1	KO2	KO3	WT1	WT2	WT3	
+ACTB	15420	18903	12456	22456	19872	25631	
+GAPDH	8934	7652	9871	10234	11456	9876	
+TP53	23456	19872	25631	15432	17890	14567	
 ```
 
 ---
@@ -119,7 +119,7 @@ TP53	23456	19872	25631	21098	18765	15432	17890	14567	16789	15234
 
 ### 1. Data Loading
 - Reads tab-delimited `proteomics_counts.csv`
-- Maps sample names to standardized format (KO1-5, WT1-5)
+- Maps sample names to standardized format (KO1-3, WT1-3)
 
 ### 2. Data Preprocessing
 - Replaces missing values with column minimum
